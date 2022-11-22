@@ -12,9 +12,9 @@ onMounted(async () => {
 
 <template>
   <div class="brand">
-    <img class="logo" src="logo.svg" alt="logo" />
+    <img class="logo" src="/logo.svg" alt="logo" />
     <h1 class="title">Triviantastic</h1>
-    <img class="logo" src="logo.svg" alt="logo" />
+    <img class="logo" src="/logo.svg" alt="logo" />
   </div>
   <div class="categories">
     <RouterLink v-for="category in categories" :key="category.id" :to="`/question/category/${category.id}`"
