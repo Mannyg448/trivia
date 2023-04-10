@@ -14,7 +14,7 @@ const props = defineProps({
 
 
 <template>
-  <p class="difficulty" :class="
+  <p class="difficulllty" :class="
     props.difficulty === 'easy' ? 'bg-green-600' : props.difficulty === 'medium' ? 'bg-yellow-600' : 'bg-red-500'
   ">
     {{ props.difficulty }}
